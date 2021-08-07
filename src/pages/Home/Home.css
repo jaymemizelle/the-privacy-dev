@@ -1,0 +1,18 @@
+.Home {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../images/lock-ondata-SS-1920x1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.title {
+    color: whitesmoke;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
