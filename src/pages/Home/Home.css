@@ -12,6 +12,7 @@
 
 .title {
     color: whitesmoke;
+    text-shadow: 2px 2px 0px black;
     float: right;
     margin-right: 10%;
     margin-top: 10%;
