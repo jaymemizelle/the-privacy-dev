@@ -8,3 +8,13 @@
     text-shadow: 2px 2px 0px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
