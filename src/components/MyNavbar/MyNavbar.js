@@ -19,13 +19,21 @@ function MyNavbar() {
           />
           <span className="brand">The Privacy Dev</span>
         </Navbar.Brand>
-        <Nav className="me-auto">
-        <Nav.Link className="right">
-          <Link className="link" to="/">Home</Link>
-        </Nav.Link>
-        <Nav.Link className="right">
-          <Link className="link" to="/about">About</Link>
-        </Nav.Link>
+        <Nav className="ms-auto">
+          <Nav.Item>
+            <Nav.Link>
+              <Link className="link" to="/">
+                Home
+              </Link>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link>
+              <Link className="link" to="/about">
+                About
+              </Link>
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar>
     </>
