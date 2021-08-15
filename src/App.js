@@ -5,7 +5,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import About from "./pages/About/About";
+import WebBrowsers from "./pages/WebBrowsers/WebBrowsers";
+import OperatingSystems from "./pages/OperatingSystems/OperatingSystems";
+import SearchEngines from "./pages/SearchEngines/SearchEngines";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/about" component={About} />
+          <Route path="/browsers" component={WebBrowsers} />
+          <Route path="/os" component={OperatingSystems} />
+          <Route path="/search-engines" component={SearchEngines} />
         </Switch>
       </Router>
     </main>

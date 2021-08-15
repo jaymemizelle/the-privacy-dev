@@ -22,15 +22,23 @@ function MyNavbar() {
         <Nav className="ms-auto">
           <Nav.Item>
             <Nav.Link>
-              <Link className="link" to="/">
-                Home
+              <Link className="link" to="/os">
+                OS
               </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link className="link" to="/about">
-                About
+              <Link className="link" to="/browsers">
+               Web Browsers
+              </Link>
+            </Nav.Link>
+          </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link>
+              <Link className="link" to="/search-engines">
+               Search Engines
               </Link>
             </Nav.Link>
           </Nav.Item>
