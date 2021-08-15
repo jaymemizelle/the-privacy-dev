@@ -8,6 +8,7 @@ import {
 import WebBrowsers from "./pages/WebBrowsers/WebBrowsers";
 import OperatingSystems from "./pages/OperatingSystems/OperatingSystems";
 import SearchEngines from "./pages/SearchEngines/SearchEngines";
+import SecureMessaging from "./pages/SecureMessaging/SecureMessaging";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/browsers" component={WebBrowsers} />
           <Route path="/os" component={OperatingSystems} />
           <Route path="/search-engines" component={SearchEngines} />
+          <Route path="/secure-messaging" component={SecureMessaging} />
         </Switch>
       </Router>
     </main>

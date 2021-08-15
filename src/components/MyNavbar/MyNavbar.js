@@ -23,7 +23,7 @@ function MyNavbar() {
           <Nav.Item>
             <Nav.Link>
               <Link className="link" to="/os">
-                OS
+                Operating Systems
               </Link>
             </Nav.Link>
           </Nav.Item>
@@ -39,6 +39,15 @@ function MyNavbar() {
             <Nav.Link>
               <Link className="link" to="/search-engines">
                Search Engines
+              </Link>
+            </Nav.Link>
+          </Nav.Item>
+
+
+          <Nav.Item>
+            <Nav.Link>
+              <Link className="link" to="/secure-messaging">
+               Secure Messaging
               </Link>
             </Nav.Link>
           </Nav.Item>
