@@ -5,7 +5,16 @@ import logo from "../../images/lock-shield.png";
 import "./MyNavbar.css";
 import { Link } from "react-router-dom";
 
-function MyNavbar() {
+function MyNavbar({
+  linkOneText,
+  linkOnePath,
+  linkTwoText,
+  linkTwoPath,
+  linkThreeText,
+  linkThreePath,
+  linkFourText,
+  linkFourPath,
+}) {
   return (
     <>
       <Navbar>
@@ -17,37 +26,36 @@ function MyNavbar() {
             className="align-top logo"
             alt="The Privacy Dev logo"
           />
-          <span className="brand">The Privacy Dev</span>
+          <Link className="link" to="/">
+            <span className="brand">The Privacy Dev</span>
+          </Link>
         </Navbar.Brand>
         <Nav className="ms-auto">
           <Nav.Item>
             <Nav.Link>
-              <Link className="link" to="/os">
-                Operating Systems
+              <Link className="link" to={linkOnePath}>
+                {linkOneText}
               </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link className="link" to="/browsers">
-               Web Browsers
+              <Link className="link" to={linkTwoPath}>
+                {linkTwoText}
               </Link>
             </Nav.Link>
           </Nav.Item>
-
           <Nav.Item>
             <Nav.Link>
-              <Link className="link" to="/search-engines">
-               Search Engines
+              <Link className="link" to={linkThreePath}>
+                {linkThreeText}
               </Link>
             </Nav.Link>
           </Nav.Item>
-
-
           <Nav.Item>
             <Nav.Link>
-              <Link className="link" to="/secure-messaging">
-               Secure Messaging
+              <Link className="link" to={linkFourPath}>
+                {linkFourText}
               </Link>
             </Nav.Link>
           </Nav.Item>

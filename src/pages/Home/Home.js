@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <div className="Home">
-        <MyNavbar />
+        <MyNavbar linkOneText="Operating Systems" linkOnePath="os" linkTwoText="Web Browsers" linkTwoPath="/browsers" linkThreeText="Search Engines" linkThreePath="/search-engines" linkFourText="Secure Messaging" linkFourPath="secure-messaging"/>
         <h1 className="title">
           Privacy is not a Privelage.
           <br />
