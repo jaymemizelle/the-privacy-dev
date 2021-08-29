@@ -24,7 +24,7 @@ function TorSection() {
             your internet traffic to be encrypted three times as it passes over
             the Tor network. This allows for you, the user, to browse the web
             completely anonymously. Tor strives to make all it's users look the
-            same, which will make it challening for anyone to track you based on
+            same, which will make it challenging for anyone to track you based on
             your browser or device information.
           </p>
           <p>

@@ -1,6 +1,7 @@
 import React from "react";
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
 import "./Home.css";
+import DuckDuckGoSection from "./Sections/DuckDuckGoSection/DuckDuckGoSection";
 import TorSection from "./Sections/TorSection/TorSection";
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
         </h1>
       </div>
       <TorSection />
+      <DuckDuckGoSection />
     </>
   );
 }
