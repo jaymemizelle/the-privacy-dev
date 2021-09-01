@@ -1,9 +1,9 @@
 import React from 'react';
 
-function SearchEngines() {
+function Learn() {
     return (
         <h2>Safe Search Engines</h2>
     )
 }
 
-export default SearchEngines;
+export default Learn; 

@@ -1,9 +1,9 @@
 import React from "react";
 
-function OperatingSystems () {
+function About () {
     return (
         <h2>Operating Systems</h2>
     )
 }
 
-export default OperatingSystems;
+export default About;

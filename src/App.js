@@ -1,14 +1,12 @@
-import Home from "./pages/Home/Home";
 import "./App.css";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import WebBrowsers from "./pages/WebBrowsers/WebBrowsers";
-import OperatingSystems from "./pages/OperatingSystems/OperatingSystems";
-import SearchEngines from "./pages/SearchEngines/SearchEngines";
-import SecureMessaging from "./pages/SecureMessaging/SecureMessaging";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Learn from "./pages/Learn/Learn";
 
 function App() {
   return (
@@ -16,10 +14,8 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/browsers" component={WebBrowsers} />
-          <Route path="/os" component={OperatingSystems} />
-          <Route path="/search-engines" component={SearchEngines} />
-          <Route path="/secure-messaging" component={SecureMessaging} />
+          <Route path="/os" component={About} />
+          <Route path="/search-engines" component={Learn} />
         </Switch>
       </Router>
     </main>

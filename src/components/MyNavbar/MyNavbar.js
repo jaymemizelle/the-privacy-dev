@@ -30,7 +30,7 @@ function MyNavbar({
             <span className="brand">The Privacy Dev</span>
           </Link>
         </Navbar.Brand>
-        <Nav className="ms-auto">
+        <Nav className="ms-auto" > 
           <Nav.Item>
             <Nav.Link>
               <Link className="link" to={linkOnePath}>
@@ -49,13 +49,6 @@ function MyNavbar({
             <Nav.Link>
               <Link className="link" to={linkThreePath}>
                 {linkThreeText}
-              </Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <Link className="link" to={linkFourPath}>
-                {linkFourText}
               </Link>
             </Nav.Link>
           </Nav.Item>

@@ -1,9 +1,15 @@
+.navbar {
+    margin: 0 5% 0 5%;
+}
+
+
 .logo {
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .brand {
+    margin-top: 5%;
     color: whitesmoke;
     text-shadow: 2px 2px 0px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -12,6 +18,14 @@
 .link {
     text-decoration: none;
     color: whitesmoke;
+}
+
+.navbar-nav {
+    margin-right: 13%;
+}
+
+.nav-item {
+    padding: 0 15% 0 15%;
 }
 
 .link:hover {

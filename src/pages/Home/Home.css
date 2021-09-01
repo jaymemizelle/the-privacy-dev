@@ -1,19 +1,38 @@
+.html {
+    margin: 0;
+}
+
 .Home {
     margin: 0;
     padding: 0;
-    background-image: url("../../images/lock-ondata-SS-1920x1280.jpg");
+    background-image: url("../../images/laptop-closing.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100vw;
 }
 
+.eyeRing {
+    width: 500px;
+    height: 400px;
+}
 
-
-.title {
+.heroText {
     color: whitesmoke;
     text-shadow: 2px 2px 0px black;
     float: right;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
+    text-align: right;
+}
+
+.btn-success {
+    margin-top: 5%;
+    background: midnightblue;
+    border: none;
+    float: right;
+}
+
+.btn-success:hover {
+    background: rgb(37, 37, 155);
 }
