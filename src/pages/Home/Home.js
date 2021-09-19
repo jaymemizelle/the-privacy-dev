@@ -5,6 +5,7 @@ import "./Home.css";
 import DuckDuckGoSection from "./Sections/DuckDuckGoSection/DuckDuckGoSection";
 import TorSection from "./Sections/TorSection/TorSection";
 import Eye from "../../images/eye-ring.jpg";
+import MiddlePane from "./Sections/MiddlePane/MiddlePane";
 
 function Home() {
   return (
@@ -30,8 +31,9 @@ function Home() {
           </div>
         </Container>
       </div>
-      <TorSection />
-      <DuckDuckGoSection />
+      <MiddlePane />
+      {/* <TorSection /> */}
+      {/* <DuckDuckGoSection /> */}
     </>
   );
 }
