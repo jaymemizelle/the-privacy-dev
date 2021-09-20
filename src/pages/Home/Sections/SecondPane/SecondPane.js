@@ -8,7 +8,7 @@ function SecondPane() {
                 <div className="tool">
                     <i><img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/80/000000/external-browser-cyber-security-kiranshastry-lineal-color-kiranshastry-4.png"/></i>
                     <h3>Tor Browser</h3>
-                    <p></p>
+                    <p>Tor Browser is a private browser.</p>
                 </div>
 
                 <div className="tool">
