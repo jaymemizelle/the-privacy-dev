@@ -11,6 +11,7 @@ import Learn from "./pages/Learn/Learn";
 function App() {
   return (
     <main>
+      <a href="https://icons8.com/icon/WtEpv5mFC2lH/browser"></a>
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />

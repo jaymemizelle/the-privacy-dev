@@ -1,0 +1,24 @@
+.secondPane {
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container i img {
+    width: 100px;
+    height: 100px;
+}
+
+.tool {
+    width: 20%;
+    padding:20px;
+}
