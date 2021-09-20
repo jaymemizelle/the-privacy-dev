@@ -1,6 +1,6 @@
 import React from 'react';
-import './DuckDuckGoSection.css';
-import DuckSearch from '../../../../images/duck-search.jfif';
+import './DuckDuckGo.css';
+import DuckSearch from '../../../images/duck-search.jfif';
 
 function DuckDuckGoSection() {
     return (

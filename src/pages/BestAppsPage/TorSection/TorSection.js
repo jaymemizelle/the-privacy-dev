@@ -1,6 +1,6 @@
 import React from "react";
 import './TorSection.css';
-import TorImage from '../../../../images/tor-project.jfif';
+import TorImage from '../../../images/tor-project.jfif';
 
 function TorSection() {
   return (
