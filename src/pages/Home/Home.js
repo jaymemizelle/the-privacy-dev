@@ -4,8 +4,11 @@ import MyNavbar from "../../components/MyNavbar/MyNavbar";
 import "./Home.css";
 import ThirdPane from "./Sections/ThirdPane/ThirdPane";
 import SecondPane from "./Sections/SecondPane/SecondPane";
+import {useHistory} from "react-router-dom";
 
 function Home() {
+  let history = useHistory();
+
   return (
     <>
       <div className="Home">
@@ -25,7 +28,7 @@ function Home() {
               <br />
               It is a civil human right.
             </h1>
-            <Button variant="success">Find out More</Button>
+            <Button variant="success" onClick={() => history.push('/learn')}>Find out More</Button>
           </div>
         </Container>
       </div>
