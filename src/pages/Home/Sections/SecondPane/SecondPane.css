@@ -22,3 +22,7 @@
     width: 20%;
     padding:20px;
 }
+
+.tool:hover {
+    cursor: pointer;
+}
