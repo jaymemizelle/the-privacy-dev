@@ -43,6 +43,6 @@ Click on the deployed application link to begin learning about how you can take 
 
 ## Questions
 For additional questions please contact:
-* Jayme Mizelle
-* Email: jlm_developer@protonmail.com
-* https://github.com/jaymemizelle/
+* The Privacy Dev
+* Email: theprivacydev@protonmail.com
+* https://github.com/theprivacydev/
