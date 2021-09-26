@@ -2,10 +2,7 @@ import React from "react";
 import { Button, Container } from "react-bootstrap";
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
 import "./Home.css";
-import DuckDuckGoSection from "../BestAppsPage/DuckDuckGo/DuckDuckGo";
-import TorSection from "../BestAppsPage/TorSection/TorSection";
-import Eye from "../../images/eye-ring.jpg";
-import MiddlePane from "./Sections/MiddlePane/MiddlePane";
+import ThirdPane from "./Sections/ThirdPane/ThirdPane";
 import SecondPane from "./Sections/SecondPane/SecondPane";
 
 function Home() {
@@ -33,7 +30,7 @@ function Home() {
         </Container>
       </div>
       <SecondPane />
-      <MiddlePane />
+      <ThirdPane />
     </>
   );
 }

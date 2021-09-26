@@ -1,9 +1,18 @@
 import React from "react";
+import MyNavbar from "../../components/MyNavbar/MyNavbar";
 import "./About.css";
 
 function About() {
   return (
     <div className="about">
+      <MyNavbar
+        linkOneText="Home"
+        linkOnePath="/"
+        linkTwoText="About"
+        linkTwoPath="/about"
+        linkThreeText="Learn"
+        linkThreePath="/learn"
+      />
       <div className="mainContent">
         <h2 className="aboutTitle">About The Privacy Dev</h2>
         <p>
