@@ -1,7 +1,8 @@
-.middlePane {
+.thirdPane {
     background: url(../../../../images/lock-ondata-SS-1920x1280.jpg);
     color: whitesmoke;
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .text {
-    margin: 15% 10% 0 0 ;
+    margin: 10% 10% 0 0 ;
     background: rgba(54, 54, 54, 0.7);
     float: right;
     width: 30vw;
@@ -21,9 +22,3 @@
     border-radius: 40%;
     text-align: center;
 }
-
-/* .eye {
-    width:400px;
-    height: 400px;
-    float: right;
-} */

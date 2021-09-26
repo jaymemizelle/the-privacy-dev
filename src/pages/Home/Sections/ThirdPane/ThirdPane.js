@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ThirdPane() {
   return (
-    <section className="middlePane">
+    <section className="thirdPane">
       <div className="text">
         <h2 className="sectionTitle">The Privacy Dev</h2>
         <p>
