@@ -1,0 +1,21 @@
+.html {
+    margin: 0;
+}
+
+.about {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #121212;
+    width: 100vw;
+    height: 100vh;
+}
+
+.aboutTitle {
+    margin-bottom: 3%;
+}
+
+.mainContent {
+    background-color: #121212;
+    padding: 10%;
+    line-height: 30px;
+}
