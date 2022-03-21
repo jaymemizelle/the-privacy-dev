@@ -5,10 +5,16 @@ function SecondPane() {
     return (
         <section className="secondPane">
             <div className="container">
+            <div onClick={() => window.open('https://www.torproject.org/download/')} className="tool">
+                    <i><img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/80/000000/external-browser-cyber-security-kiranshastry-lineal-color-kiranshastry-4.png"/></i>
+                    <h3>Brave Browser</h3>
+                    <p>Brave Browser is a private browser.</p>
+                </div>
+
                 <div onClick={() => window.open('https://www.torproject.org/download/')} className="tool">
                     <i><img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/80/000000/external-browser-cyber-security-kiranshastry-lineal-color-kiranshastry-4.png"/></i>
                     <h3>Tor Browser</h3>
-                    <p>Tor Browser is a private browser.</p>
+                    <p>Tor Browser is the most private browser, but you will find that .</p>
                 </div>
 
                 <div onClick={() => window.open('https://duckduckgo.com/')} className="tool">
