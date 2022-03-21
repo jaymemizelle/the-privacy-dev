@@ -5,8 +5,8 @@ function SecondPane() {
     return (
         <section className="secondPane">
             <div className="container">
-            <div onClick={() => window.open('https://www.torproject.org/download/')} className="tool">
-                    <i><img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/80/000000/external-browser-cyber-security-kiranshastry-lineal-color-kiranshastry-4.png"/></i>
+            <div onClick={() => window.open('https://brave.com/')} className="tool">
+                    <i><img src="https://img.icons8.com/nolan/64/brave-web-browser.png"/></i>
                     <h3>Brave Browser</h3>
                     <p>Brave Browser is a private browser.</p>
                 </div>
@@ -14,14 +14,14 @@ function SecondPane() {
                 <div onClick={() => window.open('https://www.torproject.org/download/')} className="tool">
                     <i><img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/80/000000/external-browser-cyber-security-kiranshastry-lineal-color-kiranshastry-4.png"/></i>
                     <h3>Tor Browser</h3>
-                    <p>Tor Browser is the most private browser, but you will find that .</p>
+                    <p>Tor Browser is the most private browser.</p>
                 </div>
 
                 <div onClick={() => window.open('https://duckduckgo.com/')} className="tool">
                     <i><img src="https://img.icons8.com/nolan/80/duckduckgo.png"/></i>
                     <br/>
                     <h3>Duck Duck Go</h3>
-                    <p>Duck Duck Go is a search engine.</p>
+                    <p>Duck Duck Go is a search engine that never stores your searches.</p>
                 </div>
 
                 <div onClick={() => window.open('https://www.signal.org/')} className="tool">
